@@ -1,8 +1,9 @@
 :root {
   --sjw-dark-color: #212121;
   --sjw-light-color: #eee;
-  --sjw-primary-color: #001E43;
+  --sjw-primary-color: #001e43;
   --sjw-secondary-color: #ff993b;
+  --sjw-background-color: #01092b;
 }
 
 /*change logoFont with each project*/
@@ -12,7 +13,7 @@
   font-style: normal;
 }
 
-main>.container {
+main > .container {
   padding: 60px 15px 0;
   margin-bottom: 5rem;
   min-height: 90vh;
@@ -28,8 +29,8 @@ h6 {
 }
 
 /*Navbar styles*/
-.navbarBG {
-  background-color: var(--sjw-dark-color);
+.bg-dark {
+  background-color: var(--sjw-background-color) !important;
 }
 
 .jsicon {
@@ -77,7 +78,6 @@ h6 {
 .btn-primary:focus {
   filter: brightness(1.1) !important;
   border-color: var(--sjw-secondary-color);
-
 }
 
 .odd {
@@ -102,12 +102,12 @@ h6 {
   color: var(--sjw-light-color);
 }
 
-footer .social>a {
+footer .social > a {
   color: var(--sjw-light-color);
-  opacity: .75;
+  opacity: 0.75;
 }
 
-footer .social>a:hover {
+footer .social > a:hover {
   color: var(--sjw-secondary-color);
-  opacity: .9;
+  opacity: 0.9;
 }
